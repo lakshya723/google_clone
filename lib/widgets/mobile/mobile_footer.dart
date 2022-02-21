@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../web/footer_text.dart';
+import '../footer_text.dart';
 
 
 class MobileFooter extends StatelessWidget {

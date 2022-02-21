@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../utils/colours.dart';
-import 'footer_text.dart';
+import '../footer_text.dart';
 
 // showing the footer on main screen
 class WebFooter extends StatelessWidget {

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../utils/colours.dart';
-import '../widgets/search.dart';
-import '../widgets/search_buttons.dart';
+import '../widgets/web/web_search.dart';
+import '../widgets/web/search_buttons.dart';
 import '../widgets/translation_buttons.dart';
 import '../widgets/web/web_footer.dart';
 

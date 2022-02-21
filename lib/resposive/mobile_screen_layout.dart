@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 import '../utils/colours.dart';
 import '../widgets/mobile/mobile_footer.dart';
-import '../widgets/search.dart';
+import '../widgets/web/web_search.dart';
 import '../widgets/sign_in_button.dart';
 import '../widgets/translation_buttons.dart';
 

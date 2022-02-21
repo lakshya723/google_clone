@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../utils/colours.dart';
+import '../../screen/search_screen.dart';
+import '../../utils/colours.dart';
 
 
 
@@ -53,17 +54,17 @@ class Search extends StatelessWidget {
                   ),
                 ),
               ),
-              // onFieldSubmitted: (val) {
-              //   if (val != "") {
-              //     Navigator.of(context).push(
-              //       MaterialPageRoute(
-              //         builder: (context) => SearchScreen(
-              //           searchQuery: val.trim(),
-              //         ),
-              //       ),
-              //     );
-              //   }
-              // },
+              onFieldSubmitted: (val) {
+                if (val != "") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => SearchScreen(
+                        searchQuery: val.trim(),
+                      ),
+                    ),
+                  );
+                }
+              },
             ),
           ),
           const SizedBox(height: 20),
